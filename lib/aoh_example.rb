@@ -39,8 +39,7 @@ aoh1 = [
 
 def aoh_lookup(aoh1, row, key)
   aoh1[1][:name]
-  return aoh1
-end
+  end
 
 
 def aoh_update(aoh, row, key, new_value)
