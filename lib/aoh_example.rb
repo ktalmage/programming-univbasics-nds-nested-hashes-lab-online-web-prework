@@ -42,7 +42,7 @@ def aoh_lookup(aoh1, row, key)
   end
 
 
-def aoh_update(aoh, row, key, new_value)
+def aoh_update(aoh1, row, key, new_value)
   assembled_aoh1 = aoh1[row][key] = new_value
 end
   
