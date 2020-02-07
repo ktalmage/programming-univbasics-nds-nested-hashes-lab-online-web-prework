@@ -45,7 +45,11 @@ def aoh_lookup(aoh1, row, key)
 def aoh_update(aoh1, row, key, new_value)
   aoh1[row][key] = new_value
 end
+  row = 0
+  key = :name
+  new_value = "John Smith"
   
+  puts aoh_update(aoh1, row, key, new_value)
   
   # Update the AoH data at row and key to have the value of new_value
   # Return the updated AoH
