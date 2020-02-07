@@ -38,7 +38,7 @@ aoh1 = [
     ]
 
 def aoh_lookup(aoh1, row, key)
-  aoh1[1][:name]
+  assembled_aoh = aoh1[row][key]
   end
 
 
