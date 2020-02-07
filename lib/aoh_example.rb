@@ -37,7 +37,7 @@ aoh2 = [
     ]
 
 def aoh_lookup(aoh, row, key)
-  aoh2[1][:name]
+  aoh2[0][:name]
 end
 
 def aoh_update(aoh, row, key, new_value)
