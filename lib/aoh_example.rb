@@ -49,7 +49,7 @@ end
   key = :name
   new_value = "John Smith"
   
-  puts aoh_update(aoh1, row, key, new_value)
+  puts aoh1
   
   # Update the AoH data at row and key to have the value of new_value
   # Return the updated AoH
